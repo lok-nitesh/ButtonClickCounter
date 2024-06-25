@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.items-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #2d3a35;
+  font-size: 40px;
+  font-weight: bold;
+}
+.para {
+  color: #2d3a35;
+  font-size: 20px;
+}
+.button {
+  background-color: #007bff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+}
+.count {
+  color: #c20a72;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 80px;
+  }
+  .para {
+    font-size: 40px;
+  }
+}
